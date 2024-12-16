@@ -1,0 +1,128 @@
+/* Resetando margens e padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilo do fundo da página */
+  body {
+    background-color: #000000; /* Fundo preto */
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+    overflow: hidden;
+  }
+  
+  /* Container para os perfis */
+  .container {
+    display: flex;
+    justify-content: space-evenly; /* Distribui os perfis uniformemente */
+    align-items: center;
+    width: 100%; /* Largura total */
+    height: 80%; /* Ajustando altura do container */
+  }
+  
+  /* Perfil geral */
+  .profile {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.3s ease-in-out;
+    width: 250px; /* Largura maior do perfil */
+    height: 400px; /* Altura maior do perfil */
+    margin: 0 30px; /* Adicionando espaçamento entre os perfis */
+  }
+  
+  .profile:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Avatar do perfil */
+  .avatar {
+    width: 180px; /* Tamanho maior do avatar */
+    height: 180px; /* Tamanho maior do avatar */
+    margin-bottom: 20px;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  
+  .avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .avatar:hover img {
+    transform: scale(1.1);
+  }
+  
+  /* Nome do perfil */
+  .name a {
+    font-size: 28px; /* Tamanho maior do nome */
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 20px;
+    transition: color 0.3s ease;
+  }
+  
+  .name a:hover {
+    color: #000000;
+  }
+  
+  /* Badges do perfil */
+  .badges img {
+    width: 30px; /* Tamanho menor das badges */
+    margin: 5px;
+  }
+  
+  /* Ajuste para o perfil da esquerda */
+  .left {
+    align-self: center; /* Alinha o perfil da esquerda no centro vertical */
+  }
+  
+  /* Ajuste para o perfil da direita */
+  .right {
+    align-self: center; /* Alinha o perfil da direita no centro vertical */
+  }
+  
+  /* Ajuste para o perfil da parte inferior */
+  .bottom {
+    align-self: center; /* Centraliza o perfil de baixo */
+  }
+  .reveal-button {
+    background-color: #000000; /* Cor de fundo do botão */
+    border: 2px solid #000000; /* Bordas com cor azul */
+    padding: 20px 40px; /* Tamanho do botão */
+    font-size: 24px; /* Tamanho da fonte */
+    color: white; /* Cor do texto */
+    font-family: 'Arial', sans-serif;
+    text-transform: uppercase; /* Texto em letras maiúsculas */
+    cursor: pointer; /* Cursor de ponteiro */
+    border-radius: 10px; /* Bordas arredondadas */
+    transition: all 0.3s ease-in-out; /* Transição suave para efeitos de hover */
+}
+
+.reveal-button:hover {
+    background-color: #000000; /* Muda a cor de fundo ao passar o mouse */
+    color: black; /* Muda a cor do texto ao passar o mouse */
+    transform: scale(1.1); /* Aumenta o tamanho do botão ao passar o mouse */
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5); /* Sombra com efeito de brilho azul */
+}
+
+.reveal-button:active {
+    transform: scale(1.05); /* Efeito de pressionar o botão */
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.7); /* Sombra mais intensa ao clicar */
+}
+
+/* Estilo do texto que acompanha o botão */
+.reveal-text {
+    font-size: 18px;
+    color: #ffffff;
+    margin-top: 20px;
+}
