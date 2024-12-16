@@ -5,7 +5,7 @@ document.getElementById('revealButton').addEventListener('click', function() {
     var audio = document.getElementById('background-music');
     audio.play();  // Inicia a reprodução da música
 
-    // Esconde o botão e texto
+    // Esconde a tela inicial (botão e texto)
     document.querySelector('.start-screen').style.display = 'none';
 
     // Exibe os perfis
