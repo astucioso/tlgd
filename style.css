@@ -27,7 +27,7 @@ body {
 /* Estilo do botão */
 .reveal-button {
     background-color: #000000; /* Cor de fundo do botão */
-    border: 2px solid #00b0f4; /* Bordas com cor azul */
+    border: 2px solid #000000; /* Bordas com cor azul */
     padding: 20px 40px; /* Tamanho do botão */
     font-size: 24px; /* Tamanho da fonte */
     color: white; /* Cor do texto */
@@ -39,15 +39,15 @@ body {
 }
 
 .reveal-button:hover {
-    background-color: #00b0f4; /* Muda a cor de fundo ao passar o mouse */
+    background-color: #000000; /* Muda a cor de fundo ao passar o mouse */
     color: black; /* Muda a cor do texto ao passar o mouse */
     transform: scale(1.1); /* Aumenta o tamanho do botão ao passar o mouse */
-    box-shadow: 0px 10px 20px rgba(0, 176, 244, 0.5); /* Sombra com efeito de brilho azul */
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5); /* Sombra com efeito de brilho azul */
 }
 
 .reveal-button:active {
     transform: scale(1.05); /* Efeito de pressionar o botão */
-    box-shadow: 0px 5px 10px rgba(0, 176, 244, 0.7); /* Sombra mais intensa ao clicar */
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.7); /* Sombra mais intensa ao clicar */
 }
 
 /* Texto abaixo do botão */
@@ -113,7 +113,7 @@ body {
 }
 
 .name a:hover {
-    color: #00b0f4;
+    color: #000000;
 }
 
 /* Badges do perfil */
