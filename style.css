@@ -7,7 +7,7 @@
 
 /* Estilo do fundo da página */
 body {
-    background-color: #000; /* Fundo preto */
+    background-color: #000000; /* Fundo preto */
     font-family: Arial, sans-serif;
     display: flex;
     justify-content: center;
@@ -17,7 +17,7 @@ body {
     overflow: hidden;
 }
 
-/* Tela inicial com botão */
+/* Tela inicial */
 .start-screen {
     text-align: center;
     position: absolute;
@@ -26,34 +26,34 @@ body {
 
 /* Estilo do botão */
 .reveal-button {
-    background-color: #333;
-    border: 2px solid #00b0f4;
-    padding: 20px 40px;
-    font-size: 24px;
-    color: white;
+    background-color: #000000; /* Cor de fundo do botão */
+    border: 2px solid #00b0f4; /* Bordas com cor azul */
+    padding: 20px 40px; /* Tamanho do botão */
+    font-size: 24px; /* Tamanho da fonte */
+    color: white; /* Cor do texto */
     font-family: 'Arial', sans-serif;
-    text-transform: uppercase;
-    cursor: pointer;
-    border-radius: 10px;
-    transition: all 0.3s ease-in-out;
+    text-transform: uppercase; /* Texto em letras maiúsculas */
+    cursor: pointer; /* Cursor de ponteiro */
+    border-radius: 10px; /* Bordas arredondadas */
+    transition: all 0.3s ease-in-out; /* Transição suave para efeitos de hover */
 }
 
 .reveal-button:hover {
-    background-color: #00b0f4;
-    color: black;
-    transform: scale(1.1);
-    box-shadow: 0px 10px 20px rgba(0, 176, 244, 0.5);
+    background-color: #00b0f4; /* Muda a cor de fundo ao passar o mouse */
+    color: black; /* Muda a cor do texto ao passar o mouse */
+    transform: scale(1.1); /* Aumenta o tamanho do botão ao passar o mouse */
+    box-shadow: 0px 10px 20px rgba(0, 176, 244, 0.5); /* Sombra com efeito de brilho azul */
 }
 
 .reveal-button:active {
-    transform: scale(1.05);
-    box-shadow: 0px 5px 10px rgba(0, 176, 244, 0.7);
+    transform: scale(1.05); /* Efeito de pressionar o botão */
+    box-shadow: 0px 5px 10px rgba(0, 176, 244, 0.7); /* Sombra mais intensa ao clicar */
 }
 
 /* Texto abaixo do botão */
 .reveal-text {
     font-size: 18px;
-    color: #b9bbbe;
+    color: #ffffff;
     margin-top: 20px;
 }
 
