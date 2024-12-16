@@ -1,64 +1,65 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pesadelo</title>
-    <meta property="og:title" content="she knows who i am">
-    <meta property="og:description" content="praga">
-    <meta property="og:image" content="https://avatars.githubusercontent.com/u/150879600?v=4">
-    <meta property="og:url" content="https://estelionatario.com.br">
-    <meta property="og:type" content="website">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Perfis Discord</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Teko:wght@300..700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
-    <div class="start-screen">
-        <button id="revealButton" class="reveal-button">Clique Aqui</button>
-        <p id="revealText" class="reveal-text"></p>
+  <audio id="background-music" src="song/song.mp3" preload="auto"></audio>
+  
+  <!-- Tela Inicial com o botão -->
+  <div class="start-screen">
+    <button id="revealButton" class="reveal-button">Clique Aqui</button>
+    <p id="revealText" class="reveal-text"></p>
+  </div>
+
+  <!-- Perfis, inicialmente ocultos -->
+  <div class="container" id="profiles-container">
+    <div class="profile left">
+      <div class="avatar">
+        <img src="fotodoshomi/a_997e1c8abaee23e5df6f3419f816f40a.gif" alt="Avatar 1">
+      </div>
+      <div class="name">
+        <a href="https://discord.gg/bocadefumo" target="_blank">kauan</a>
+      </div>
+      <div class="badges">
+        <img src="fotodoshomi/nitro-badge.png" alt="Nitro Badge">
+        <img src="fotodoshomi/booster-badge.png" alt="Booster Badge">
+      </div>
     </div>
 
-    <div class="container" id="profiles-container">
-        <!-- Perfis aparecem aqui após o clique -->
-        <div class="profile left">
-            <div class="avatar">
-                <img src="https://avatars.githubusercontent.com/u/150879600?v=4" alt="Perfil 1">
-            </div>
-            <div class="name">
-                <a href="https://github.com" target="_blank">Perfil 1</a>
-            </div>
-            <div class="badges">
-                <img src="discord_nitro_badge.png" alt="Nitro">
-                <img src="discord_booster_badge.png" alt="Booster">
-            </div>
-        </div>
-        <div class="profile right">
-            <div class="avatar">
-                <img src="https://avatars.githubusercontent.com/u/150879600?v=4" alt="Perfil 2">
-            </div>
-            <div class="name">
-                <a href="https://github.com" target="_blank">Perfil 2</a>
-            </div>
-            <div class="badges">
-                <img src="discord_nitro_badge.png" alt="Nitro">
-                <img src="discord_booster_badge.png" alt="Booster">
-            </div>
-        </div>
-        <div class="profile bottom">
-            <div class="avatar">
-                <img src="https://avatars.githubusercontent.com/u/150879600?v=4" alt="Perfil 3">
-            </div>
-            <div class="name">
-                <a href="https://github.com" target="_blank">Perfil 3</a>
-            </div>
-            <div class="badges">
-                <img src="discord_nitro_badge.png" alt="Nitro">
-                <img src="discord_booster_badge.png" alt="Booster">
-            </div>
-        </div>
+    <div class="profile right">
+      <div class="avatar">
+        <img src="fotodoshomi/7bc319a3282da147520174b00b020ae6.png" alt="Avatar 2">
+      </div>
+      <div class="name">
+        <a href="https://discord.gg/bocadefumo" target="_blank">'53</a>
+      </div>
+      <div class="badges">
+        <img src="fotodoshomi/nitro-badge.png" alt="Nitro Badge">
+        <img src="fotodoshomi/booster-badge.png" alt="Booster Badge">
+      </div>
     </div>
 
-    <audio id="audio" src="song.mp3" preload="auto"></audio>
+    <div class="profile bottom">
+      <div class="avatar">
+        <img src="fotodoshomi/d1674ef726de0de442815b965cc3ba9e.png" alt="Avatar 3">
+      </div>
+      <div class="name">
+        <a href="https://discord.gg/bocadefumo" target="_blank">lowest</a>
+      </div>
+      <div class="badges">
+        <img src="fotodoshomi/nitro-badge.png" alt="Nitro Badge">
+        <img src="fotodoshomi/booster-badge.png" alt="Booster Badge">
+      </div>
+    </div>
+  </div>
 
-    <script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
